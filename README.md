@@ -11,3 +11,19 @@ En este proyecto se encuentra un Notebook de Jupiter **(EDA.ipynb)** en donde se
 En la carpeta **/datasets** de este mismo proyecto se ubica el archivo ***internet.xlsx*** original extraído de la web oficial de ENACOM, y además se encuentra un conjunto de archivos ***.csv*** que incluyen los datos extraídos a partir del EDA con el objetivo de reducir la necesidad de cálculos para el dashboard.
 
 Durante el proceso de análisis exploratorio de datos se desarrollaron unos **kpis** relevantes que nos sirven para determinar el desempeño de la empresa hacia determinados objetivos, principalmente en cuanto a extensión de tecnologías modernas, adquisición de clientes y mejora en calidades de servicio de forma estratégica.
+
+## EDA
+Durante este proceso se realiza una limpieza de los datos, suficiente como para permitir realizar cálculos y visualizaciones sobre los mismos, esto incluye prevención de duplicados, eliminación de datos o registros incompletos, nulos o aparentemente erroneos, cálculo de índices únicos numéricos, agregación de datos y normalización o estandarización de datos de carácter cualitativo.
+Es en este proceso que se empieza a graficar variables de posible interés con el objetivo de encontrar patrones significativos o tendencias relevantes, es por este proceso por el cual se pudo identificar de forma visual la creciente adaptación de tecnologías como fibra óptica o la importancia en el histórico de la empresa de las tecnologías de cablemódem, así como poder ver las metricas par cada provincia inidividualmente
+
+### Datasets 
+* ***Internet.xlsx***: Set de datos originales
+* ***\*.csv***: Conjuntos de sets de datos limpios y agregados con información dedicada al Dashboard
+
+## KPIs
+Cada uno de los KPIs aqui surgen del analisis en ***EDA.ipynb***, donde se encuentran justificados y detallados
+<div style="text-align: center;"> <i>KPI 1 : Incremento porcentual de nuevas tecnologias <br/><b>Incrementar en un 1,5% el uso de tecnologías de alta velocidad en comparación al trimestre anterior</b></i></div><br/>
+
+<div style="text-align: center;"> <i>KPI 2 : Incremento provincial de accesos por cada 100 hogares <br/><b>Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100 hogares, por provincia.</b></i></div><br/>
+
+<div style="text-align: center;"> <i>KPI 3 : Incremento provincial estrategico de velocidad media de conección<br/><b>Aumentar la velocidad media de internet en al menos un 10% en las provincias con velocidades por debajo del promedio nacional en relación al trimestre anterior.</b></i></div><br/>
